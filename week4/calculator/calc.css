@@ -1,0 +1,28 @@
+body {
+    margin: 30px;
+    padding: 5px;
+    background-color:silver ;
+  }
+  
+  #head{
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  #div1{
+    background-color: orangered;
+    border: 1px solid black;
+    
+  }
+  
+  #div2{
+    background-color: yellow;
+    border: 1px solid black;
+    
+  }
+  
+  #div3{
+    background-color: green;
+    border: 1px solid black;
+    
+  }
