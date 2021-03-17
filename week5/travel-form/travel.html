@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <title>Travel Form</title>
+  <script src="travel.js"></script>
+</head>
+<body>
+  <form name="myForm">
+    
+    <p id="form-row">First Name</p>
+    <input name="first_Name" id="firstName" type="text" class="user-input" value="">
+    <p id="form-row">Last Name</p>
+    <input name="last_Name" id="lastName" type="text" class="user-input" value="">
+    <p id="form-row">Age</p>
+    <input name="age" id="age_1" class="user-input" ></input>
+    <div>
+      <input type="radio" id="gender-1" name="gender" value="Male">Male 
+      <input type="radio" id="gender-2" name="gender" value="Female">Female
+    </div>
+    <p>Location</p>
+    <select name="list" id="location">
+      <option value="Dallas">Dallas</option>
+      <option value="Las Vegas">Las Vegas</option>
+      <option value="Seattle">Seattle</option>
+    </select>
+    <p>Food Choices:</p>
+
+
+  <input type="checkbox" class="checkBox1">
+  <label for="meat" id="meat" class="checkBox1">Meatlover</label>
+  <input type="checkbox" id="veggie" class="checkBox1">
+  <label for="veggie">Vegetarian</label>
+  <input type="checkbox" id="lactose" class="checkBox1">
+  <label for="lactose">Lactose Free</label>
+  <input type="checkbox" id="pesca" class="checkBox1">
+  <label for="Pesca">Pescatarian</label>
+   
+    <p>*Please Fill Every Field</p>
+    <input type="button" onclick="submitForm()" value="Submit">
+  </form>
+  
+</body>
+</html>
